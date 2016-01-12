@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 group :development, :test do
   gem 'byebug'
   gem 'capybara'
-  gem 'turnip'
+  gem 'cucumber'
   gem 'cucumber-rails'
   gem 'rspec'
   gem 'selenium-webdriver'
@@ -11,5 +11,6 @@ group :development, :test do
   gem 'rspec-expectations'
   gem 'launchy'
   gem 'rake'
+  gem 'pry'
 end
 
